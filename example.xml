@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<menu>
+  <parent title="kirupaPicks">
+    <child>
+      <title>kirupa.com</title>
+      <link>http://www.kirupa.com</link>
+    </child>
+    <child>
+      <title>kirupaForum</title>
+      <link>http://www.kirupa.com/forum/</link>
+    </child>
+    <child>
+      <title>Kirupa's Blog</title>
+      <link>http://blog.kirupa.com</link>
+    </child>
+  </parent>
+</menu>
