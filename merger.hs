@@ -1,18 +1,9 @@
 import Text.XML.Light 
 import System.Environment
 
-data XContent = XElem {
-                  element :: XElement,
-                  nodeID  :: Integer
-                }
-              | XText {
-                  cdata :: CData,
-                  nodeID  :: Integer
-                }
-              | XCRef {
-                  ref :: String,
-                  nodeID :: Integer
-              } deriving Show 
+data XContent = XElem { element :: XElement, nodeID :: Integer }
+              | XText { cdata   :: CData,    nodeID :: Integer }
+              | XCRef { ref     :: String,   nodeID :: Integer } deriving Show 
 
 data XElement = XElement {
                   xName    :: QName,
